@@ -39,11 +39,7 @@ gulp.task('imagemin',function (){//压缩图片
     .pipe(gulp.dest('./dist/img'))
     .pipe(load.connect.reload())
 })
-// gulp.task('es62es5',function (){//es6 to es5
-//     return gulp.src(['./js/*.js','!./js/jquery*.js'])
-//     .pipe(load.babel({presets: ['@babel/preset-env']}))
-//     .pipe(gulp.dest('./js'))
-// })
+
 gulp.task('reload',function (cb){// 自动刷新
     load.connect.server({
         root: './dist',//根目录
