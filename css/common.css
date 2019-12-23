@@ -42,54 +42,69 @@ img {
 /* 底部 YangFangLing 2019年12月21日 */
 .footer {
   overflow: hidden; }
-  .footer ul {
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
-    height: 42px;
-    line-height: 42px; }
-  .footer ul li {
-    float: left;
-    width: 150px; }
-  .footer ul li a {
-    font-size: 12px;
-    color: #333; }
-  .footer ul li a:hover {
-    color: #ff3300; }
-  .footer .footerBot {
-    color: #999;
-    padding: 15px 0;
-    font-size: 12px; }
-  .footer .footerBot a {
-    color: #999;
-    margin-left: 10px; }
-  .footer .footerBot img {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    margin-right: 5px; }
-  .footer .footerBot a:hover {
-    color: #ff3300; }
+
+.footer ul {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  height: 42px;
+  line-height: 42px; }
+
+.footer ul li {
+  float: left;
+  width: 150px; }
+
+.footer ul li a {
+  font-size: 12px;
+  color: #333; }
+
+.footer ul li a:hover {
+  color: #ff3300; }
+
+.footer .footerBot {
+  color: #999;
+  padding: 15px 0;
+  font-size: 12px; }
+
+.footer .footerBot a {
+  color: #999;
+  margin-left: 10px; }
+
+.footer .footerBot img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px; }
+
+.footer .footerBot a:hover {
+  color: #ff3300; }
 
 /* 底部 end */
 /* 头部 YangFangLing 2019年12月21日 */
 .header-service {
   border-bottom: 1px #e0e0e0 solid; }
-  .header-service ul li {
-    float: left;
-    font-size: 12px;
-    color: #666;
-    width: 240px;
-    text-align: center;
-    height: 40px;
-    line-height: 40px; }
-  .header-service ul li a {
-    color: #333;
-    height: 20px; }
-  .header-service ul li i {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    background: url("./../img/hearIcon.png") no-repeat 0 0; }
+
+.header-service ul li {
+  float: left;
+  font-size: 12px;
+  color: #666;
+  width: 240px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px; }
+
+.header-service ul li a {
+  color: #333;
+  height: 20px; }
+
+.header-service ul li i {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background: url("./../img/hearIcon.png") no-repeat 1px -1px/200px 80px;
+  vertical-align: middle; }
+
+.header-service ul li i.icon2 {
+  background: url("./../img/hearIcon.png") no-repeat 1px -1px/200px 80px; }
 
 /* 头部 end */
