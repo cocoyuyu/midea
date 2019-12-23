@@ -3,7 +3,7 @@ var load = require('gulp-load-plugins')();
 
 gulp.task('concatCss',function (){//合并压缩css
     return gulp.src('./css/*.css')//读取文件
-    .pipe(load.concat('index.css'))//合并文件
+    // .pipe(load.concat('common.css'))//合并文件
     .pipe(load.minifyCss())//压缩文件
     .pipe(gulp.dest('./dist/css'))//写入dist/css目录
     .pipe(load.connect.reload())
@@ -16,7 +16,7 @@ gulp.task('sass',function(){
 gulp.task('concatJs',function (){//合并压缩js
     return gulp.src(['./js/*.js','!./js/jquery*.js'])
     .pipe(load.babel({presets: ['@babel/preset-env']}))
-    .pipe(load.concat('index.js'))
+    // .pipe(load.concat('index.js'))
     .pipe(load.uglify())
     .pipe(gulp.dest('./dist/js'))
     .pipe(load.connect.reload())
