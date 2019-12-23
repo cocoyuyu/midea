@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* 顶部开始 coco 191223 */
+.c-top {
+  box-sizing: border-box;
+  height: 80px;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  padding-top: 20px; }
+  .c-top .content {
+    height: 42px;
+    overflow: hidden;
+    /* 顶部左部 */
+    /* 顶部右部 */ }
+    .c-top .content .c-t-left {
+      float: left;
+      overflow: hidden; }
+      .c-top .content .c-t-left .big-title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #000;
+        line-height: 42px;
+        float: left; }
+      .c-top .content .c-t-left .buy-point {
+        background: url(../img/b2bIcon.png) no-repeat -2px -86px;
+        display: block;
+        float: left;
+        margin-left: 10px;
+        margin-top: 15px;
+        width: 167px;
+        height: 26px; }
+    .c-top .content .c-t-right {
+      float: right;
+      overflow: hidden;
+      display: block;
+      box-sizing: border-box; }
+    .c-top .content .c-t-item {
+      float: left;
+      margin-right: 45px;
+      padding-top: 8px;
+      display: block;
+      /* 优惠价格 */
+      /* 多地址配送 */
+      /* 灵活支付 */
+      /* 美的售后保障 */ }
+      .c-top .content .c-t-item .icon-price {
+        background: url(../img/b2bIcon.png) no-repeat -52px -55px/200px 200px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        overflow: hidden;
+        vertical-align: middle; }
+      .c-top .content .c-t-item .icon-address {
+        background: url(../img/b2bIcon.png) no-repeat 0px -52px/200px 200px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        overflow: hidden;
+        vertical-align: middle; }
+      .c-top .content .c-t-item .icon-pay {
+        background: url(../img/b2bIcon.png) no-repeat -85px -54px/200px 200px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        overflow: hidden;
+        vertical-align: middle; }
+      .c-top .content .c-t-item .icon-after {
+        background: url(../img/b2bIcon.png) no-repeat -21px -52px/200px 200px;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        overflow: hidden;
+        vertical-align: middle; }
+      .c-top .content .c-t-item .item-text {
+        display: inline-block;
+        position: relative;
+        top: -2px;
+        line-height: 18px;
+        margin-left: 5px;
+        font-size: 12px;
+        color: #333; }
+
+/* 顶部结束 coco 191223*/
+/* nav start */
+.c-nav-list {
+  width: 100%; }
+  .c-nav-list .content {
+    overflow: hidden; }
+    .c-nav-list .content .c-menu-first {
+      float: left; }
+      .c-nav-list .content .c-menu-first a {
+        font-weight: bold;
+        font-size: 14px;
+        height: 45px;
+        display: inline-block;
+        box-sizing: border-box;
+        line-height: 45px;
+        border-bottom: 2px solid #0092d8; }
+    .c-nav-list .content .c-menu-secone {
+      float: left;
+      margin-left: 48px; }
+      .c-nav-list .content .c-menu-secone a {
+        font-weight: bold;
+        font-size: 14px;
+        height: 45px;
+        display: inline-block;
+        box-sizing: border-box;
+        line-height: 45px; }
+    .c-nav-list .content .c-menu-third {
+      float: left;
+      margin-left: 48px; }
+      .c-nav-list .content .c-menu-third a {
+        font-weight: bold;
+        font-size: 14px;
+        height: 45px;
+        display: inline-block;
+        box-sizing: border-box;
+        line-height: 45px; }
+
+/* nav end */
+/* banner start */
+.c-banner img {
+  width: 100%; }
+
+/* banner end */
+/* login-wrap start */
+.c-login-wrap {
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+  box-sizing: border-box; }
+  .c-login-wrap .content {
+    /* c-vip-apply 开始 */
+    /* c-vip-apply 结束 */
+    /* 登录注册开始 */
+    /* 登录注册结束 */ }
+    .c-login-wrap .content .c-vip-apply, .c-login-wrap .content .c-login {
+      float: left;
+      width: 50%;
+      padding: 80px;
+      box-sizing: border-box;
+      /* VIP合约客户专享服务开始 */
+      /* VIP合约客户专享服务结束 */
+      /* 服务列表开始 */
+      /*服务列表结束*/ }
+      .c-login-wrap .content .c-vip-apply .c-sub-title, .c-login-wrap .content .c-login .c-sub-title {
+        display: block;
+        font-size: 30px;
+        font-weight: 100;
+        height: 45px;
+        line-height: 45px;
+        color: #222;
+        text-align: center;
+        font-family: inherit; }
+      .c-login-wrap .content .c-vip-apply .c-service-list, .c-login-wrap .content .c-login .c-service-list {
+        overflow: hidden;
+        padding-left: 8%;
+        margin-top: 33px;
+        box-sizing: border-box; }
+        .c-login-wrap .content .c-vip-apply .c-service-list .c-s-item, .c-login-wrap .content .c-login .c-service-list .c-s-item {
+          float: left;
+          width: 31%;
+          text-align: center;
+          /*文本注释开始*/
+          /* 文本注释结束 */ }
+          .c-login-wrap .content .c-vip-apply .c-service-list .c-s-item .cheaper-icon, .c-login-wrap .content .c-login .c-service-list .c-s-item .cheaper-icon {
+            background: url(./../img/b2bIcon.png) no-repeat -93px -4px;
+            display: block;
+            margin: 0 auto;
+            width: 40px;
+            height: 40px; }
+          .c-login-wrap .content .c-vip-apply .c-service-list .c-s-item .arrive-pay-icon, .c-login-wrap .content .c-login .c-service-list .c-s-item .arrive-pay-icon {
+            background: url(./../img/b2bIcon.png) no-repeat -50px -4px;
+            display: block;
+            margin: 0 auto;
+            width: 40px;
+            height: 40px; }
+          .c-login-wrap .content .c-vip-apply .c-service-list .c-s-item .cus-ser-icon, .c-login-wrap .content .c-login .c-service-list .c-s-item .cus-ser-icon {
+            background: url(./../img/b2bIcon.png) no-repeat 0 0;
+            display: block;
+            margin: 0 auto;
+            width: 40px;
+            height: 40px; }
+          .c-login-wrap .content .c-vip-apply .c-service-list .c-s-item .c-service-text, .c-login-wrap .content .c-login .c-service-list .c-s-item .c-service-text {
+            margin-top: 8px;
+            color: #999;
+            font-size: 14px; }
+        .c-login-wrap .content .c-vip-apply .c-service-list .v-line-div, .c-login-wrap .content .c-login .c-service-list .v-line-div {
+          width: 1px;
+          height: 56px;
+          float: left;
+          background-color: #ebebeb;
+          background-color: #ebebeb;
+          box-sizing: border-box; }
+      .c-login-wrap .content .c-vip-apply .c-apply-now, .c-login-wrap .content .c-login .c-apply-now {
+        margin-top: 30px;
+        clear: both;
+        text-align: center;
+        box-sizing: border-box; }
+        .c-login-wrap .content .c-vip-apply .c-apply-now .c-a-button, .c-login-wrap .content .c-login .c-apply-now .c-a-button {
+          width: 320px;
+          height: 40px;
+          margin: 0 auto;
+          line-height: 40px;
+          text-align: center;
+          color: #fff;
+          border: 0;
+          border-radius: 2px;
+          transition: all .2s ease-in-out;
+          display: block;
+          background-color: #0092d8;
+          cursor: pointer; }
+        .c-login-wrap .content .c-vip-apply .c-apply-now .apply-requ, .c-login-wrap .content .c-login .c-apply-now .apply-requ {
+          color: #999;
+          font-size: 12px;
+          margin-top: 15px; }
+    .c-login-wrap .content .c-login {
+      float: left;
+      width: 50%;
+      padding: 80px;
+      box-sizing: border-box; }
+      .c-login-wrap .content .c-login .c-login-form {
+        width: 320px;
+        margin: 0 auto;
+        box-sizing: border-box; }
+        .c-login-wrap .content .c-login .c-login-form .c-mail-input, .c-login-wrap .content .c-login .c-login-form .c-pass-input {
+          margin-top: 28px;
+          box-sizing: border-box; }
+          .c-login-wrap .content .c-login .c-login-form .c-mail-input .c-text-input, .c-login-wrap .content .c-login .c-login-form .c-pass-input .c-text-input {
+            display: block;
+            box-sizing: border-box;
+            height: 38px;
+            margin: 0 auto;
+            line-height: 38px;
+            padding-left: 10px;
+            border: 1px solid #c8c8c8;
+            border-radius: 2px;
+            width: 100%;
+            background: transparent; }
+        .c-login-wrap .content .c-login .c-login-form .c-login-now .c-login-btn {
+          display: block;
+          width: 320px;
+          height: 40px;
+          margin: 0 auto;
+          line-height: 40px;
+          text-align: center;
+          background-color: #0092d8;
+          color: #fff;
+          border: 0;
+          cursor: pointer;
+          border-radius: 2px;
+          transition: all .2s ease-in-out;
+          font-family: inherit;
+          margin-top: 16px; }
+        .c-login-wrap .content .c-login .c-login-form .c-operation {
+          width: 320px;
+          margin: 0 auto;
+          margin-top: 15px;
+          text-align: right;
+          color: #999;
+          box-sizing: border-box; }
+          .c-login-wrap .content .c-login .c-login-form .c-operation .c-fill {
+            padding: 0 10px;
+            color: #eee; }
+
+/* login-wrap end */
