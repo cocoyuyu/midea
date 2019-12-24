@@ -35,71 +35,74 @@
 
         }  
 
-        /* 顶部右部 */
+        /* 顶部右部开始 */
         .c-t-right{
             float:right;
             overflow: hidden;
             display:block;
             box-sizing: border-box;
-        }
 
-        .c-t-item{
-            float: left;
-            margin-right: 45px;
-            padding-top: 8px;
-            display: block;
-
-            /* 优惠价格 */
-            .icon-price{
-                background: url(../img/b2bIcon.png) no-repeat -52px -55px / 200px 200px;
-                width: 20px;
-                height: 20px;
-                display: inline-block;
-                overflow: hidden;
-                vertical-align: middle;
+            .c-t-item{
+                float:left;
+                margin-right: 45px;
+                padding-top: 8px;
+                display: block;
+    
+                /* 优惠价格 */
+                .icon-price{
+                    background: url(../img/b2bIcon.png) no-repeat -52px -55px / 200px 200px;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    overflow: hidden;
+                    vertical-align: middle;
+                }
+    
+                /* 多地址配送 */
+                .icon-address{
+                    background: url(../img/b2bIcon.png) no-repeat 0px -52px / 200px 200px;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    overflow: hidden;
+                    vertical-align: middle;
+                }
+    
+                /* 灵活支付 */
+                .icon-pay{
+                    background: url(../img/b2bIcon.png) no-repeat -85px -54px / 200px 200px;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    overflow: hidden;
+                    vertical-align: middle;
+                }
+    
+                /* 美的售后保障 */
+                .icon-after{
+                    background: url(../img/b2bIcon.png) no-repeat -21px -52px / 200px 200px;
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                    overflow: hidden;
+                    vertical-align: middle;
+                }
+                .item-text{
+                    display: inline-block;
+                    position: relative;
+                    top: 0;
+                    line-height: 18px;
+                    margin-left: 5px;
+                    font-size: 12px;
+                    color: #333;
+                }
             }
-
-            /* 多地址配送 */
-            .icon-address{
-                background: url(../img/b2bIcon.png) no-repeat 0px -52px / 200px 200px;
-                width: 20px;
-                height: 20px;
-                display: inline-block;
-                overflow: hidden;
-                vertical-align: middle;
-            }
-
-            /* 灵活支付 */
-            .icon-pay{
-                background: url(../img/b2bIcon.png) no-repeat -85px -54px / 200px 200px;
-                width: 20px;
-                height: 20px;
-                display: inline-block;
-                overflow: hidden;
-                vertical-align: middle;
-            }
-
-            /* 美的售后保障 */
-            .icon-after{
-                background: url(../img/b2bIcon.png) no-repeat -21px -52px / 200px 200px;
-                width: 20px;
-                height: 20px;
-                display: inline-block;
-                overflow: hidden;
-                vertical-align: middle;
-            }
-            .item-text{
-                display: inline-block;
-                position: relative;
-                top: -2px;
-                line-height: 18px;
-                margin-left: 5px;
-                font-size: 12px;
-                color: #333;
-            }
-        }
+            .c-last{margin-right:0}
+        }  
     }      
 }
+/* 顶部右部结束 */
+
 /* 顶部结束 coco 191223*/
 
 /* nav start */
@@ -167,6 +170,7 @@
 
     .content{
         /* c-vip-apply 开始 */
+        overflow: hidden;
         .c-vip-apply,.c-login{
             float: left;
             width: 50%;
@@ -174,7 +178,8 @@
             box-sizing: border-box;
 
             /* VIP合约客户专享服务开始 */
-            .c-sub-title{
+            /* 企业客户登录开始 */
+            .c-subv-title{
                 display: block;
                 font-size: 30px;
                 font-weight: 100;
@@ -184,6 +189,7 @@
                 text-align: center;
                 font-family: inherit
             }
+            /* 企业客户登录结束 */
             /* VIP合约客户专享服务结束 */
 
             /* 服务列表开始 */
@@ -223,6 +229,7 @@
                         margin-top: 8px;
                         color: #999;
                         font-size: 14px;
+                        line-height: 20px;
                     }
                     /* 文本注释结束 */
                     
@@ -281,19 +288,33 @@
             padding: 80px;
             box-sizing: border-box;
 
+            /* 企业客户登录开始 */
+            .c-sub-title{
+                display: block;
+                font-size: 30px;
+                font-weight: 100;
+                height: 45px;
+                line-height: 45px;
+                color: #222;
+                text-align: center;
+                margin-bottom: 24px;
+                font-family: inherit
+            }
+            /* 企业客户登录结束 */
             .c-login-form{
                 width:320px;
                 margin:0 auto;
+
                 box-sizing: border-box;
                 .c-mail-input,.c-pass-input{
-                    margin-top: 28px;
+                    margin-top: 18px;
                     box-sizing: border-box;
                     .c-text-input{
                         display: block;
                         box-sizing: border-box;
                         height: 38px;
                         margin: 0 auto;
-                        line-height: 38px;
+                        line-height: 18px;
                         padding-left: 10px;
                         border: 1px solid #c8c8c8;
                         border-radius: 2px;
@@ -318,7 +339,7 @@
                         border-radius: 2px;
                         transition: all .2s ease-in-out;
                         font-family: inherit;
-                        margin-top:16px;
+                        margin-top:31px;
                     }
                 }
                 // 登录结束
@@ -336,17 +357,17 @@
                         padding: 0 10px;
                         color: #eee;
                     }
+
+                    .c-text{
+                        color:#999;
+                    }
                 }
             }
-
-            
 
         }
 
         /* 登录注册结束 */
-    }
-    
-    
+    }  
     
 }
 /* login-wrap end */
