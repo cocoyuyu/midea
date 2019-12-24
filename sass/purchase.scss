@@ -121,7 +121,6 @@
                 box-sizing: border-box;
                 line-height: 45px;
                 border-bottom: 2px solid #0092d8;
-               
             }
         }
         .c-menu-secone{
@@ -240,7 +239,6 @@
                     height: 56px;
                     float: left;
                     background-color: #ebebeb;
-                    background-color: #ebebeb;
                     box-sizing: border-box;
                 }
             }
@@ -277,7 +275,6 @@
                 }
                 // 合约要求结束
             }
-
         }
         /* c-vip-apply 结束 */
 
@@ -287,6 +284,7 @@
             width: 50%;
             padding: 80px;
             box-sizing: border-box;
+            border-left: 1px solid #ebebeb;
 
             /* 企业客户登录开始 */
             .c-sub-title{
@@ -371,3 +369,311 @@
     
 }
 /* login-wrap end */
+
+/* 热卖商品开始 */
+.c_hot_sale{
+    width:100%; 
+    padding-bottom: 75px;
+    .content{
+        // overflow: hidden;
+        // 上部标题链接开始
+        .c_hs_pic{
+            margin-top:55px;
+            margin-bottom:55px;
+            text-align: center;
+            img{
+                width:149px;
+                height:37px;
+                position: relative;
+                left:526px;
+                margin-bottom: 14px;
+            }
+            .c_all_goods{
+                color:#999;
+            }
+        }
+        // 上部标题链接结束
+
+        // 下部图片排列开始
+        .c_hs_img{
+            overflow: hidden;
+            box-sizing: border-box;
+            // 图片左半部分开始
+            .c_hs_left{
+                width: 600px;
+                height: 630px;
+                float: left;
+
+                .c_hs_top{
+                    padding-right: 15px;
+                    a{
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+                .c-hs-bot{
+                    overflow: hidden;
+                    box-sizing: border-box;
+                    padding-top:18px;
+                    .c-bot-left{
+                        width: 296px;
+                        height: 100%;
+                        box-sizing: border-box;            
+                        padding-right: 7.5px;
+                        float: left;
+                        a{
+                            img{
+                                width:100%;
+                                height:100%;
+                            }
+                        }
+                    }
+                    .c-bot-rig{
+                        width: 296px;
+                        height: 100%;
+                        box-sizing: border-box;
+                        padding-right: 7.5px;
+                        float: left;
+                        a{
+                            img{
+                                width:100%;
+                                height:100%;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+        // 图片左半部分结束
+
+        // 图片右半部开始
+        .c_hs_right{
+            width: 600px;
+            height: 630px;
+            float: left;
+        }
+        // 图片右半部结束
+
+        // 下部图片排列结束
+    }
+}
+
+/* 热卖商品结束 */
+
+/* 购买流程开始 */
+.c_purchase_wrap{
+    width:100%;
+    background-color: #f4f4f4;
+
+    .c-content{
+        box-sizing: border-box;
+        overflow: hidden;
+        padding-top: 60px;
+        padding-bottom: 75px;
+        // 购买流程标题图开始
+        .c_purchase_title{
+            text-align: center;
+            margin-bottom: 40px;
+            img{
+                width:150px;
+                height: 68px;
+                display:inline-block;
+            }
+        }
+        // 购买流程标题图结束
+
+        .c_purchase_con{
+           overflow: hidden;
+            // 购买流程图展示开始
+            .c_purchase_line{
+                max-width: 100%;
+                height: 48px;
+                margin-left: 88px;
+                margin-bottom: 18px;
+                background: url(./../img/c-process-line.png) no-repeat;
+                background-size: contain;
+            }
+            // 购买流程图展示结束
+        // 购买流程图内容开始
+           .c_p_step1{
+               float: left;
+               width:295px;
+               margin-left:98px;
+           }
+           .c_p_step2{
+               float: left;
+               width:299px;
+           }
+           .c_p_step3{
+               float: left;
+               width:321px;
+           }
+           .c_p_step4{
+               float: left;
+           }
+
+           .c_process_title{
+                font-size: 18px;
+                color: #434343;
+           }
+           .process_detail{
+                margin-top: 5px;
+                font-size: 12px;
+                color: #9f9f9f;
+           }
+        }
+        // 购买流程图内容结束
+    }
+}
+/* 购买流程结束 */
+ /* 邮件留言开始 */
+ .c_mail_message{
+     .content{
+        //共用样式开始
+        .c_contact_way{
+            font-size: 16px;
+            color: #333;
+            font-weight: 700;
+        }
+        .c_text{
+            color: #999;
+            font-size: 12px;
+            margin-top: 8px;
+        }
+        // 共用样式结束
+        .c_mail{
+            padding-top: 70px;
+            padding-bottom: 50px;
+            float: left;
+            height: 170px;
+            width: 598px;
+            text-align: center;
+            box-sizing: content-box;
+            border-right:1px solid #eee;
+            .icon_mail{
+                background:url(./../img/c-company-sprite.png) no-repeat -8px -370px;
+                width: 60px;
+                height:60px;
+                display:inline-block;
+                vertical-align: middle;
+            }
+            
+        }
+        .c_message{
+            padding-top: 70px;
+            padding-bottom: 50px;
+            float: left;
+            height: 170px;
+            width: 598px;
+            text-align: center;
+            box-sizing: content-box;
+
+            .icon_message{
+                background:url(./../img/c-company-sprite.png) no-repeat -62px -370px;
+                width: 60px;
+                height:60px;
+                display:inline-block;
+                vertical-align: middle;
+            }
+
+            .c_leave_message{
+                color: #0093d5;
+                cursor: pointer;
+                margin-top: 4px;
+                display: block;
+            }
+        }
+
+     }
+ }
+ /* 邮件留言结束 */
+
+ /* 留言框开始 */
+  .c_leave_frame{
+    padding: 40px 0 48px 130px;
+    display:none;
+    // 第一块联系人电话邮箱开始
+    .basic_info{
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        .form_item{
+            float: left;
+            margin-right: 15px;
+            width: 285px;
+            .c_form_label{
+              
+               .star{
+                   color:red;
+               }
+            }
+        }
+        .long_input{
+            width: 180px;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid #ddd;
+            padding: 0 10px;
+        }
+    }
+    // 第一块联系人电话邮箱结束
+
+    // 第二块留言内容开始
+    .c_text_item{
+        height: 102px;
+        .star1{
+            color: red;
+        }
+        .c_form_label1{
+            position: relative;
+            top:-66px;
+        }
+        .c_textarea{
+            width: 780px;
+            height: 80px;
+            padding: 10px;
+            resize: none;
+            border: 1px solid #ddd;
+        }
+    }
+    // 第二块留言内容结束
+
+    // 验证码部分开始
+    .short_input{
+        width:100px;
+        height: 40px;
+        line-height: 40px;
+        border: 1px solid #ddd;
+        padding: 0 10px;
+    }
+    // 验证码部分结束
+
+    // 提交按钮开始
+    .c_btn_submit{
+        border: 1px solid #0086c2;
+        background-color: #0086c2;
+        color: #fff;
+        display: inline-block;
+        width: 98px;
+        height: 38px;
+        line-height: 38px;
+        vertical-align: top;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    // 提交按钮结束
+  }
+ /* 留言框结束 */
+
+/* 底部广告条开始 */
+.c_adv{
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    img{
+        width:100%;
+    }
+}
+/* 底部广告条结束 */
