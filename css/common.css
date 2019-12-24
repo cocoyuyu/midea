@@ -145,7 +145,139 @@ img {
     padding: 0 30px; }
     .y-nav ul li a:hover {
       color: #fff; }
-  .y-nav .y-navFing {
-    float: right; }
+
+.y-navFing {
+  float: right; }
+  .y-navFing ul li {
+    padding: 0 20px;
+    float: left;
+    color: #fff;
+    position: relative; }
+    .y-navFing ul li:hover {
+      background-color: #006fa3; }
+    .y-navFing ul li .y-NavDown {
+      background-color: #fff;
+      position: absolute;
+      overflow: hidden;
+      right: 0;
+      top: 44px;
+      width: 300px;
+      border: 1px #e0e0e0 solid;
+      z-index: 999;
+      display: none; }
+      .y-navFing ul li .y-NavDown p {
+        text-align: center;
+        color: #999; }
+      .y-navFing ul li .y-NavDown p a {
+        padding: 0;
+        color: #0092d8;
+        display: inline-block; }
+    .y-navFing ul li span {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      background: url(../img/index_sprite.png) -36px -216px no-repeat; }
+    .y-navFing ul li:nth-child(3) span {
+      background: url(../img/index_sprite.png) -146px -216px no-repeat; }
+    .y-navFing ul li:nth-child(2) span {
+      background: url(../img/index_sprite.png) -120px -216px no-repeat; }
+    .y-navFing ul li:nth-child(1) span {
+      background: url(../img/index_sprite.png) -95px -216px no-repeat; }
+  .y-navFing .y-ewm {
+    position: absolute;
+    right: 0;
+    top: 44px;
+    background-color: #fff;
+    width: 200px;
+    border: 1px #e0e0e0 solid;
+    display: none;
+    z-index: 99; }
+  .y-navFing .y-ewm strong {
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    width: 50%; }
+    .y-navFing .y-ewm strong img {
+      width: 100%; }
+    .y-navFing .y-ewm strong em {
+      display: block;
+      color: #999;
+      height: 20px;
+      line-height: 20px;
+      margin-top: 10px; }
+
+.y-denglu {
+  position: absolute;
+  right: 0;
+  top: 44px;
+  background-color: #fff;
+  border: 1px #e0e0e0 solid;
+  border-top: none;
+  width: 200px;
+  display: none;
+  z-index: 99; }
+  .y-denglu a {
+    display: inline-block;
+    color: #333 !important;
+    padding: 0 25px !important;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px #e0e0e0 solid; }
+    .y-denglu a i {
+      width: 15px;
+      height: 15px;
+      display: inline-block;
+      vertical-align: middle;
+      background: url(../img/atom_sprite.png) no-repeat -284px -44px;
+      margin-right: 15px; }
+      .y-denglu a i.icon2 {
+        background: url(../img/atom_sprite.png) no-repeat -244px -85px; }
+      .y-denglu a i.icon3 {
+        background: url(../img/atom_sprite.png) no-repeat -284px -23px; }
+      .y-denglu a i.icon4 {
+        background: url(../img/atom_sprite.png) no-repeat -208px -85px; }
+      .y-denglu a i.icon5 {
+        background: url(../img/atom_sprite.png) no-repeat -65px -24px; }
+      .y-denglu a i.icon6 {
+        background: url(../img/atom_sprite.png) -243px -22px no-repeat; }
+    .y-denglu a:hover {
+      background-color: #eee; }
+
+.y-search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none; }
+  .y-search input {
+    height: 44px;
+    width: 250px;
+    background-color: #fff;
+    border: none;
+    padding: 0 10px 0 38px;
+    box-sizing: border-box;
+    color: #999;
+    font-size: 12px;
+    outline: none; }
+  .y-search button {
+    width: 20px;
+    outline: none;
+    height: 20px;
+    display: block;
+    border: none;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    cursor: pointer;
+    background: url(../img/index_sprite.png) -66px -216px no-repeat; }
+
+.y-nav.cur {
+  background-color: #0092d8;
+  z-index: 99999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
 /* 头部 end */
