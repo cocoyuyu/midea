@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="./css/purchase.css">
 </head>
 <body>
-<!-- 引入头部 -->
-<iframe marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no src='header.html' height='auto' width="100%"></iframe>
+<!-- 引入头部开始 -->
+
+<!-- 引入头部结束 -->
 
 <!-- 顶部 start coco 2019年12月23日 -->
 <div class="c-top">
@@ -67,7 +68,7 @@
 <div class="c-login-wrap">
     <div class="content">
         <!-- VIP合约客户专享服务 开始 -->
-        <div class="c-vip-apply">
+        <div class="c-vip-apply c-left">
             <!-- VIP合约客户专享服务 -->
             <h2 class="c-subv-title">VIP合约客户专享服务</h2>
             <!-- 服务列表 -->
@@ -134,10 +135,180 @@
 
     </div>
 </div>
-
-
 <!-- login-wrap end -->
-<!-- 引入底部 -->
-<iframe marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling=no src="footer.html" height="auto" width="100%"></iframe>
+
+<!--热卖商品开始 -->
+<div class="c_hot_sale">
+    <div class="content">
+        <!-- 上部标题链接开始 -->
+        <div class="c_hs_pic">
+            <img src="./../img/c_hot_sale.webp" alt="热销商品标题图">
+            <a class="c_all_goods" href="index.html">查看全部 &gt;</a>
+        </div>
+        <!-- 上部标题链接结束 -->
+
+        <!-- 下部图片排列开始 -->
+        <div class="c_hs_img">
+            <div class="c_hs_left">
+                <div class="c_hs_top">
+                    <a href="#"><img src="./../img/c-dcz.webp" alt="电磁灶图"></a>
+                </div>
+                <div class="c-hs-bot">
+                    <div class="c-bot-left">
+                        <a href=""><img src="./../img/c-dsh.webp" alt="电水壶图"></a>
+                    </div>
+                   <div class="c-bot-rig">
+                        <a href="#"><img src="./../img/c-dhg.webp" alt="电火锅图"></a>
+                   </div>  
+                </div>
+            </div>
+
+            <div class="c_hs_right">
+                <a href="#"><img src="./../img/c-xyj.webp" alt="洗衣机图"></a>
+            </div>
+
+        </div>
+
+        <!-- 下部图片排列结束 -->
+
+    </div>
+</div>
+
+<!-- 下部图片排列结束 -->
+
+<!--热卖商品结束 -->
+
+<!-- 购买流程开始 -->
+<div class="c_purchase_wrap">
+    <div class="content c-content">
+        <div class="c_purchase_title">
+            <img src="./../img/c-purchase_process.webp" alt="购买流程标题图">
+        </div>
+          
+        <div class="c_purchase_con">
+             <!-- 购买流程图展示 -->
+            <div class="c_purchase_line"></div>
+             <!-- 购买流程图内容开始 -->
+            <div class="c_p_step1">
+                <p class="c_process_title">注册及审核</p>
+                <p class="process_detail">
+                    在线注册成为美的企业客户<br>
+                    客服审核采购资质
+                </p>
+            </div>
+            <div class="c_p_step2">
+                <p class="c_process_title">提交订单</p>
+                <p class="process_detail">
+                    在“商品列表”或“批量购买”<br>
+                    页面提交采购商品订单
+                </p>
+            </div>
+            <div class="c_p_step3">
+                <p class="c_process_title">线上付款/转账付款</p>
+                <p class="process_detail">
+                    建议24小时内线上付款或银行转<br>
+                    帐，支持微信支付/支付宝支付/银<br/>
+                    行对公账户转账
+                </p>
+            </div>
+            <div class="c_p_step4">
+                <p class="c_process_title">物流收货</p>
+                <p class="process_detail">
+                    到帐后五个工作日之内发货，<br>
+                    在线查看订单，等待收货。
+                </p>
+            </div>
+        </div>
+        <!-- 购买流程图内容结束-->
+    </div>
+</div>
+<!-- 购买流程结束 -->
+
+<!-- 邮件留言开始 -->
+<div class="c_mail_message">
+    <div class="content clearfix">
+            <div class="c_mail">
+                <i class="icon_mail"></i>
+                <p class="c_contact_way">发送邮件至：vip@midea.com</p>
+                <p class="c_text">给我们发送电子邮件，我们会尽早回复您。</p>
+            </div>
+            <div class="c_message">
+                <i class="icon_message"></i>
+                <p class="c_contact_way">给我们留言</p>
+                <p class="c_text">给我们留言，客服会在1-3个工作日内回复。</p>
+                <a class="c_leave_message" href="#leave">点击留言</a>
+            </div>
+    </div>
+</div>
+<!-- 邮件留言结束 -->
+
+<!-- 留言框开始 -->
+<div class="c_leave_frame">
+    <div class="content">
+        <form class="from_main">
+            <!-- 第一块联系人电话邮箱开始 -->
+            <div class="basic_info clearfix">
+                <!-- 联系人 -->
+                <div class="form_item">
+                    <label for="name" class="c_form_label"><span class="star">*</span>联系人：</label>
+                    <input type="text" class="long_input">
+                    <!-- <span class="attention">联系人不能为空</span> -->
+                </div>
+                <!-- 电话号码 -->
+                <div class="form_item">
+                    <label for="name" class="c_form_label" ><span class="star">*</span>电话号码：</label>
+                    <input type="text" class="long_input">
+                </div>
+                <!-- 电子邮箱 -->
+                <div class="form_item">
+                    <label for="name" class="c_form_label"><span class="star">*</span>电子邮箱：</label>
+                    <input type="text" class="long_input">
+                </div>
+            </div>
+            <!-- 第二块留言内容开始 -->
+            <div class="form_item c_text_item">
+                <label for="name" class="c_form_label1 "><span class="star1">*</span>留言内容：</label>
+                <textarea class="c_textarea" placeholder="为了更好为企业客户提供服务，请填写贵公司的采购需求，包含采购用途、采购预算、期望采购产品的功能、价位等"></textarea>
+                <!-- <span class="attention">留言内容不能为空</span> -->
+            </div>
+            <!-- 第二块留言内容结束 -->
+
+            <!-- 验证码部分开始 -->
+            <div class="form_item">
+                <label for="name" class="c_form_label"><span class="star1">*</span>验证码：</label>
+                <input class="long_input short_input" type="text" id="check">
+                <!-- <img src="./../img/c_yanzhengma.jfif" alt="验证码图"> -->
+            </div>
+            <!-- 验证码部分结束 -->
+
+            <!-- 备注开始 -->
+            <div class="text_explain">
+                <p class="text">请花一分钟时间填写信息给我们留言，我们会尽快给您回复。 也可直接发邮件至：vip@midea.com</p>
+            </div>
+
+            <!-- 备注结束 -->
+
+            <!-- 提交按钮开始 -->
+            <button class="c_btn_submit">提交</button>
+            <!-- 提交按钮结束 -->
+        </form>
+    </div>
+</div>
+<!-- 留言框结束 -->
+
+<!-- 底部广告条开始 -->
+<div class="c_adv">
+    <a target="_blank" href="#">
+        <img src="./../img/c-p-bottom-b.webp" alt="底部广告图">
+    </a>
+</div>
+
+<!-- 底部广告条结束 -->
+
+<!-- 引入底部开始 -->
+
+<!-- 引入底部结束 -->
+<script src="./js/jquery.1.8.3.min.js"></script>
+<script src="./js/purchase.js"></script>
 </body>
 </html>
