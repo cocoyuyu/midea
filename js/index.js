@@ -111,10 +111,6 @@ function move(dom,target){
     }, 30);
 }
 
-// 头部底部引用
-$('.header').load('./header.html');
-$('.footer').load('./footer.html');
-
 // banner侧边导航
 $('.y-DownNav dl').on('mouseover',function(){
     $(this).find('.y-EnDown').show();

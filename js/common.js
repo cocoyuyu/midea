@@ -39,3 +39,7 @@ $(window).scroll(function(){
   $(".y-nav").removeClass('cur');
   }
 });
+
+// 头部底部引用
+$('.header').load('./header.html');
+$('.footer').load('./footer.html');
