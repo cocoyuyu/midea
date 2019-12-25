@@ -22,9 +22,9 @@ gulp.task('concatJs',function (){//合并压缩js
     .pipe(load.connect.reload())
 });
 gulp.task('uglifyJq',function (){//压缩jq
-    return gulp.src(['./js/jquery*.js'])
+    return gulp.src('./js/jquery*.js')
     .pipe(load.uglify())
-    .pipe(load.rename('jquery.1.8.3.mim.js'))
+    .pipe(load.rename('jquery.1.8.3.min.js'))
     .pipe(gulp.dest('./dist/js'));
 });
 gulp.task('minifyHtml',function (){//压缩html
@@ -52,7 +52,7 @@ gulp.task('watchs',function (cb){
     
     gulp.watch('./sass/*.scss',gulp.series('sass'));
     gulp.watch('./css/*.css',gulp.series('concatCss'));
-    gulp.watch('./js/*.js',gulp.series('concatJs'));
+    gulp.watch('./js/*.js',gulp.series('concatJs','uglifyJq'));
     gulp.watch('./*.html',gulp.series('minifyHtml'));
     gulp.watch('./img/*.*',gulp.series('imagemin'));
     cb();
@@ -61,7 +61,7 @@ gulp.task('watchs',function (cb){
 gulp.task('start',gulp.series('reload','watchs'));
 
 gulp.task('build',gulp.parallel(// 打包
-    gulp.series('sass','concatCss'),
+    gulp.series('sass','concatCss'), 
     gulp.series('concatJs','uglifyJq'),
     gulp.series('minifyHtml'),
     gulp.series('imagemin'),

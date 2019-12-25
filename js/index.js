@@ -118,10 +118,10 @@ $('.y-DownNav dl').on('mouseover',function(){
 });
 $('.y-DownNav dl').on('mouseout',function(){
     $(this).find('.y-EnDown').hide();
-    $(this).siblings().find('.y-EnDown').hide();
+    $(this).siblings().find('.y-EnDown').hide();  
 });
 
-// 在线客服 YangFangLing 2019年12月23日
+// 在线客服 YangFangLing 2019年12月23日 
 $('.kf-mobile, .kf-weChat, .online-service').hover(function(){
     $(this).children('div').stop().show().animate({right:'70px',opacity:1}, 400);
   },function(){
