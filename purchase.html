@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="./css/purchase.css">
 </head>
 <body>
-<!-- 引入头部开始 -->
-
-<!-- 引入头部结束 -->
+<!-- 引入头部 -->
+<div class="header"></div>
 
 <!-- 顶部 start coco 2019年12月23日 -->
 <div class="c-top">
@@ -100,7 +99,7 @@
             </div>
             <!-- 立即申请及要求开始 -->
             <div class="c-apply-now">
-                <a href="#" class="c-a-button">立即申请</a>
+                <a href="login.html" class="c-a-button">立即申请</a>
                 <p class="apply-requ">合约要求：年采购额10万以上用户，可填写申请成为VIP合约客户</p>
             </div>
             <!-- 立即申请及要求结束 -->
@@ -245,6 +244,7 @@
 <!-- 留言框开始 -->
 <div class="c_leave_frame">
     <div class="content">
+
         <form class="from_main">
             <!-- 第一块联系人电话邮箱开始 -->
             <div class="basic_info clearfix">
@@ -262,7 +262,7 @@
                 <!-- 电子邮箱 -->
                 <div class="form_item">
                     <label for="name" class="c_form_label"><span class="star">*</span>电子邮箱：</label>
-                    <input type="text" class="long_input">
+                    <input type="text" class="long_input" name="email">
                 </div>
             </div>
             <!-- 第二块留言内容开始 -->
@@ -275,21 +275,24 @@
 
             <!-- 验证码部分开始 -->
             <div class="form_item">
-                <label for="name" class="c_form_label"><span class="star1">*</span>验证码：</label>
-                <input class="long_input short_input" type="text" id="check">
-                <!-- <img src="./../img/c_yanzhengma.jfif" alt="验证码图"> -->
+                <label for="name" class="c_form_label"><span class="star2">*</span>验证码：</label>
+                <input class="short_input" type="text" id="check">
+                <!-- 动态验证码 -->
             </div>
             <!-- 验证码部分结束 -->
 
-            <!-- 备注开始 -->
+            <!-- 备注说明 -->
             <div class="text_explain">
                 <p class="text">请花一分钟时间填写信息给我们留言，我们会尽快给您回复。 也可直接发邮件至：vip@midea.com</p>
             </div>
 
             <!-- 备注结束 -->
 
-            <!-- 提交按钮开始 -->
-            <button class="c_btn_submit">提交</button>
+            <!-- 提交按钮 -->
+            <div class="form_item">
+                <button class="c_btn_submit">提交</button>
+            </div>
+            
             <!-- 提交按钮结束 -->
         </form>
     </div>
@@ -305,10 +308,13 @@
 
 <!-- 底部广告条结束 -->
 
-<!-- 引入底部开始 -->
+<!-- 引入底部 -->
+<div class="footer"></div>
 
-<!-- 引入底部结束 -->
+<!-- 引入js -->
 <script src="./js/jquery.1.8.3.min.js"></script>
 <script src="./js/purchase.js"></script>
+<script src="./js/common.js"></script>
+
 </body>
 </html>
