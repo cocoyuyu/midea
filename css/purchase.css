@@ -386,92 +386,106 @@
 
 /* 购买流程结束 */
 /* 邮件留言开始 */
-.c_mail_message .content .c_contact_way {
-  font-size: 16px;
-  color: #333;
-  font-weight: 700; }
-
-.c_mail_message .content .c_text {
-  color: #999;
-  font-size: 12px;
-  margin-top: 8px; }
-
-.c_mail_message .content .c_mail {
-  padding-top: 70px;
-  padding-bottom: 50px;
-  float: left;
-  height: 170px;
-  width: 598px;
-  text-align: center;
-  box-sizing: content-box;
-  border-right: 1px solid #eee; }
-  .c_mail_message .content .c_mail .icon_mail {
-    background: url(./../img/c-company-sprite.png) no-repeat -8px -370px;
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    vertical-align: middle; }
-
-.c_mail_message .content .c_message {
-  padding-top: 70px;
-  padding-bottom: 50px;
-  float: left;
-  height: 170px;
-  width: 598px;
-  text-align: center;
-  box-sizing: content-box; }
-  .c_mail_message .content .c_message .icon_message {
-    background: url(./../img/c-company-sprite.png) no-repeat -62px -370px;
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    vertical-align: middle; }
-  .c_mail_message .content .c_message .c_leave_message {
-    color: #0093d5;
-    cursor: pointer;
-    margin-top: 4px;
-    display: block; }
+.c_mail_message {
+  border-bottom: 1px solid #eee; }
+  .c_mail_message .content .c_contact_way {
+    font-size: 16px;
+    color: #333;
+    font-weight: 700; }
+  .c_mail_message .content .c_text {
+    color: #999;
+    font-size: 12px;
+    margin-top: 8px; }
+  .c_mail_message .content .c_mail {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    float: left;
+    height: 170px;
+    width: 598px;
+    text-align: center;
+    box-sizing: content-box;
+    border-right: 1px solid #eee; }
+    .c_mail_message .content .c_mail .icon_mail {
+      background: url(./../img/c-company-sprite.png) no-repeat -8px -370px;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      vertical-align: middle; }
+  .c_mail_message .content .c_message {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    float: left;
+    height: 170px;
+    width: 598px;
+    text-align: center;
+    box-sizing: content-box; }
+    .c_mail_message .content .c_message .icon_message {
+      background: url(./../img/c-company-sprite.png) no-repeat -62px -370px;
+      width: 60px;
+      height: 60px;
+      display: inline-block;
+      vertical-align: middle; }
+    .c_mail_message .content .c_message .c_leave_message {
+      color: #0093d5;
+      cursor: pointer;
+      margin-top: 4px;
+      display: block; }
 
 /* 邮件留言结束 */
 /* 留言框开始 */
-.c_leave_frame {
-  padding: 40px 0 48px 130px;
-  display: none; }
-  .c_leave_frame .basic_info {
+.c_leave_frame .content .from_main {
+  padding: 40px 0 48px 130px; }
+  .c_leave_frame .content .from_main .basic_info {
     box-sizing: border-box;
     margin-bottom: 10px; }
-    .c_leave_frame .basic_info .form_item {
+    .c_leave_frame .content .from_main .basic_info .form_item {
       float: left;
       margin-right: 15px;
-      width: 285px; }
-      .c_leave_frame .basic_info .form_item .c_form_label .star {
-        color: red; }
-    .c_leave_frame .basic_info .long_input {
+      width: 285px;
+      box-sizing: border-box; }
+      .c_leave_frame .content .from_main .basic_info .form_item .c_form_label {
+        width: 68px;
+        text-align: right; }
+        .c_leave_frame .content .from_main .basic_info .form_item .c_form_label .star {
+          color: red;
+          margin-right: 10px; }
+    .c_leave_frame .content .from_main .basic_info .long_input {
       width: 180px;
       height: 40px;
       line-height: 40px;
       border: 1px solid #ddd;
       padding: 0 10px; }
-  .c_leave_frame .c_text_item {
+  .c_leave_frame .content .from_main .c_text_item {
     height: 102px; }
-    .c_leave_frame .c_text_item .star1 {
-      color: red; }
-    .c_leave_frame .c_text_item .c_form_label1 {
+    .c_leave_frame .content .from_main .c_text_item .star1 {
+      color: #f30; }
+    .c_leave_frame .content .from_main .c_text_item .c_form_label1 {
       position: relative;
       top: -66px; }
-    .c_leave_frame .c_text_item .c_textarea {
-      width: 780px;
+    .c_leave_frame .content .from_main .c_text_item .c_textarea {
+      width: 790px;
       height: 80px;
       padding: 10px;
       resize: none;
       border: 1px solid #ddd; }
-  .c_leave_frame .short_input {
+  .c_leave_frame .content .from_main .star2 {
+    margin-right: 10px;
+    color: red; }
+  .c_leave_frame .content .from_main .short_input {
     width: 100px;
     height: 40px;
     line-height: 40px;
     border: 1px solid #ddd;
-    padding: 0 10px; }
-  .c_leave_frame .c_btn_submit {
+    padding: 0 10px;
+    margin: 10px 0; }
+  .c_leave_frame .content .from_main .text_explain {
+    position: relative;
+    height: 42px;
+    line-height: 28px;
+    padding-left: 67px;
+    padding-top: 10px;
+    margin-bottom: 10px; }
+  .c_leave_frame .content .from_main .c_btn_submit {
     border: 1px solid #0086c2;
     background-color: #0086c2;
     color: #fff;
@@ -481,7 +495,8 @@
     line-height: 38px;
     vertical-align: top;
     text-align: center;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-left: 66px; }
 
 /* 留言框结束 */
 /* 底部广告条开始 */

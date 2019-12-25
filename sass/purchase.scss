@@ -126,7 +126,6 @@
         .c-menu-secone{
             float: left;
             margin-left: 48px;
-
             a{
                 font-weight: bold;
                 font-size: 14px;
@@ -249,7 +248,7 @@
                 text-align: center;
                 box-sizing: border-box;
 
-                // 立即申请开始
+                // 立即申请
                 .c-a-button{
                     width: 320px;
                     height: 40px;
@@ -342,7 +341,7 @@
                 }
                 // 登录结束
 
-                // 注册及找回密码开始
+                // 注册及找回密码
                 .c-operation{
                     width: 320px;
                     margin: 0 auto;
@@ -360,6 +359,7 @@
                         color:#999;
                     }
                 }
+                // 注册及找回密码结束
             }
 
         }
@@ -529,8 +529,10 @@
     }
 }
 /* 购买流程结束 */
+
  /* 邮件留言开始 */
  .c_mail_message{
+     border-bottom: 1px solid #eee;
      .content{
         //共用样式开始
         .c_contact_way{
@@ -593,78 +595,102 @@
 
  /* 留言框开始 */
   .c_leave_frame{
-    padding: 40px 0 48px 130px;
-    display:none;
-    // 第一块联系人电话邮箱开始
-    .basic_info{
-        box-sizing: border-box;
-        margin-bottom: 10px;
-        .form_item{
-            float: left;
-            margin-right: 15px;
-            width: 285px;
-            .c_form_label{
-              
-               .star{
-                   color:red;
-               }
+    .content{
+        .from_main{
+            padding: 40px 0 48px 130px;
+            // display:none;
+            // 第一块联系人电话邮箱开始
+            .basic_info{
+                box-sizing: border-box;
+                margin-bottom: 10px;
+                .form_item{
+                    float: left;
+                    margin-right: 15px;
+                    width: 285px;
+                    box-sizing: border-box;
+                    .c_form_label{
+                        width: 68px;
+                        text-align: right;
+                    .star{
+                        color:red;
+                        margin-right: 10px;
+                    }
+                    }
+                }
+                .long_input{
+                    width: 180px;
+                    height: 40px;
+                    line-height: 40px;
+                    border: 1px solid #ddd;
+                    padding: 0 10px;
+                }
             }
-        }
-        .long_input{
-            width: 180px;
-            height: 40px;
-            line-height: 40px;
-            border: 1px solid #ddd;
-            padding: 0 10px;
-        }
-    }
-    // 第一块联系人电话邮箱结束
+            // 第一块联系人电话邮箱结束
 
-    // 第二块留言内容开始
-    .c_text_item{
-        height: 102px;
-        .star1{
-            color: red;
-        }
-        .c_form_label1{
-            position: relative;
-            top:-66px;
-        }
-        .c_textarea{
-            width: 780px;
-            height: 80px;
-            padding: 10px;
-            resize: none;
-            border: 1px solid #ddd;
-        }
-    }
-    // 第二块留言内容结束
+            // 第二块留言内容开始
+            .c_text_item{
+                height: 102px;
+                .star1{
+                    color: #f30;
+                }
+                .c_form_label1{
+                    position: relative;
+                    top:-66px;
+                }
+                .c_textarea{
+                    width: 790px;
+                    height:80px;
+                    padding: 10px;
+                    resize: none;
+                    border: 1px solid #ddd;
+                }
+            }
+            // 第二块留言内容结束
 
-    // 验证码部分开始
-    .short_input{
-        width:100px;
-        height: 40px;
-        line-height: 40px;
-        border: 1px solid #ddd;
-        padding: 0 10px;
-    }
-    // 验证码部分结束
+            // 验证码部分开始
+            .star2{
+                margin-right: 10px;
+                color:red;
+            }
+            .short_input{
+                width:100px;
+                height: 40px;
+                line-height: 40px;
+                border: 1px solid #ddd;
+                padding: 0 10px;
+                margin: 10px 0;
+            }
+            // 验证码部分结束
 
-    // 提交按钮开始
-    .c_btn_submit{
-        border: 1px solid #0086c2;
-        background-color: #0086c2;
-        color: #fff;
-        display: inline-block;
-        width: 98px;
-        height: 38px;
-        line-height: 38px;
-        vertical-align: top;
-        text-align: center;
-        cursor: pointer;
-    }
 
-    // 提交按钮结束
+            // 备注说明
+            .text_explain{
+                position: relative;
+                height: 42px;
+                line-height: 28px;
+                padding-left: 67px;
+                padding-top:10px;
+                margin-bottom: 10px;
+            }
+            // 备注说明结束
+            // 提交按钮
+            .c_btn_submit{
+                border: 1px solid #0086c2;
+                background-color: #0086c2;
+                color: #fff;
+                display: inline-block;
+                width: 98px;
+                height: 38px;
+                line-height: 38px;
+                vertical-align: top;
+                text-align: center;
+                cursor: pointer;
+                margin-left: 66px;
+            }
+        }    
+            // 提交按钮结束
+    }
+        
   }
  /* 留言框结束 */
 
