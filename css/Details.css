@@ -1,0 +1,200 @@
+.classNav {
+  margin: 40px 0;
+  overflow: hidden; }
+  .classNav .content {
+    border: 1px solid #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff; }
+  .classNav .classTitle {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 0 10px 15px 10px; }
+  .classNav .classList {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    overflow: hidden; }
+    .classNav .classList .y-ul02 {
+      display: none; }
+    .classNav .classList ul li {
+      float: left;
+      margin: 10px;
+      font-size: 12px;
+      color: #333;
+      cursor: pointer; }
+      .classNav .classList ul li.hover i {
+        background: url(../img/atom_sprite.png) no-repeat -243px -102px; }
+      .classNav .classList ul li i {
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        vertical-align: middle;
+        background: url(../img/atom_sprite.png) no-repeat -263px -102px;
+        margin-right: 10px; }
+  .classNav .cate_cell {
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-top: 1px solid #eee;
+    float: left;
+    width: 100%;
+    cursor: pointer; }
+    .classNav .cate_cell i {
+      width: 8px;
+      height: 5px;
+      display: inline-block;
+      vertical-align: middle;
+      background: url(../img/atom_sprite.png) no-repeat 0 -44px;
+      margin-left: 10px; }
+
+.yf-cpList {
+  overflow: hidden; }
+  .yf-cpList .list {
+    width: 286px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    background-color: #fff;
+    margin-left: 18px;
+    margin-top: 18px;
+    float: left;
+    position: relative;
+    height: 420px;
+    overflow: hidden; }
+    .yf-cpList .list:nth-child(1) {
+      margin-top: 0; }
+    .yf-cpList .list:nth-child(2) {
+      margin-top: 0; }
+    .yf-cpList .list:nth-child(3) {
+      margin-top: 0; }
+    .yf-cpList .list:nth-child(4) {
+      margin-top: 0; }
+    .yf-cpList .list:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.07); }
+      .yf-cpList .list:hover .pic em {
+        display: none; }
+      .yf-cpList .list:hover .box {
+        top: 0; }
+    .yf-cpList .list .pic {
+      position: relative; }
+    .yf-cpList .list .pic img {
+      width: 100%; }
+    .yf-cpList .list .pic em {
+      display: block;
+      width: 88px;
+      height: 30px;
+      line-height: 30px;
+      background-color: #f30;
+      color: #fff;
+      text-align: center;
+      position: absolute;
+      right: 0;
+      top: 0; }
+    .yf-cpList .list .box {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: -420px;
+      left: 0;
+      text-align: center;
+      line-height: 420px;
+      transition: .8s;
+      cursor: pointer;
+      padding-top: 150px;
+      box-sizing: border-box; }
+      .yf-cpList .list .box a {
+        width: 100px;
+        height: 35px;
+        line-height: 35px;
+        background-color: #f30;
+        display: block;
+        color: #fff;
+        margin: 20px auto 0; }
+        .yf-cpList .list .box a:first-child {
+          margin-top: 0; }
+    .yf-cpList .list:nth-child(4n+1) {
+      margin-left: 0; }
+    .yf-cpList .list .text {
+      padding: 20px;
+      box-sizing: border-box; }
+      .yf-cpList .list .text p {
+        color: #f30;
+        font-size: 18px; }
+        .yf-cpList .list .text p span {
+          font-size: 12px;
+          color: #999;
+          float: right;
+          line-height: 24px; }
+      .yf-cpList .list .text h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical; }
+      .yf-cpList .list .text em {
+        display: block;
+        color: #999;
+        margin-top: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+
+.y-xgcp {
+  overflow: hidden;
+  padding: 40px 0; }
+  .y-xgcp .y-xgcpNav {
+    width: 100%;
+    border-bottom: #ddd solid 1px;
+    overflow: hidden; }
+    .y-xgcp .y-xgcpNav a {
+      line-height: 50px;
+      display: block;
+      float: right; }
+      .y-xgcp .y-xgcpNav a:hover {
+        color: #f30; }
+  .y-xgcp .y-xgcpNav h3 {
+    font-size: 14px;
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer; }
+    .y-xgcp .y-xgcpNav h3.active {
+      background-color: #f30;
+      color: #fff; }
+  .y-xgcp .y-xgcpList {
+    margin-top: 30px; }
+    .y-xgcp .y-xgcpList .y-navss {
+      display: none;
+      overflow: hidden; }
+      .y-xgcp .y-xgcpList .y-navss.show {
+        display: block; }
+  .y-xgcp .y-xgcpList div {
+    overflow: hidden; }
+  .y-xgcp .y-xgcpList .list {
+    float: left;
+    margin-left: 18px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    padding: 30px 0;
+    width: 284px; }
+    .y-xgcp .y-xgcpList .list:hover p {
+      color: #f30; }
+    .y-xgcp .y-xgcpList .list:first-child {
+      margin-left: 0; }
+    .y-xgcp .y-xgcpList .list img {
+      width: 100%;
+      transition: .8s; }
+      .y-xgcp .y-xgcpList .list img:hover {
+        transform: scale(1.02); }
+    .y-xgcp .y-xgcpList .list p {
+      font-size: 14px; }

@@ -1,0 +1,95 @@
+// 登录注册 YangFangLing 2019年12月25日
+.y-login{
+  overflow: hidden;
+  padding: 80px 0;
+  & span.img{
+    width: 560px;
+    float: left;
+    display: block;
+    position: relative;
+    left: 80px;
+    & img{
+      width: 100%;
+    }
+  }
+  & .loginBox{
+    float: right;
+    width: 413px;
+    min-height: 505px;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    box-shadow: 0 0 8px 0 #d6d6d6;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    right: 80px;
+    & h2{
+      font-size: 20px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    ul{
+      padding-bottom: 20px;
+      border-bottom: 1px #eee solid;
+    }
+    ul li{
+      float: left;
+      margin-left: 25px;
+      &:nth-child(2) i{
+        background: url(../img/login.png) no-repeat 0 0;
+      }
+      &:first-child{
+        margin-left: 0;
+      }
+      & i{
+        width: 49px;
+        height: 48px;
+        display: block;
+        background: url(../img/login.png) no-repeat -57px 0;
+      }
+    }
+    form h3{
+      font-size: 20px;
+      color: #666;
+      padding: 25px 0 20px;
+    }
+    form .input{
+      margin-top: 15px;
+      &:first-of-type{
+        margin-top: 0;
+      }
+      & a{
+        background-color: #0092d8;
+        display: block;
+        width: 350px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        margin-top: 25px;
+      }
+    }
+    form .input input{
+      width: 318px;
+      height: 40px;
+      line-height: 40px;
+      padding: 0 15px;
+      outline: none;
+      border: 1px #c8c8c8 solid;
+    }
+    .login_links{
+      color: #999;
+      margin-top: 25px;
+      & span{
+        margin: 0 15px;
+        color: #e0e0e0;
+      }
+      & a{
+        color: #999;
+      }
+      & .forget_pwd{
+        float: right;
+      }
+    }
+  }
+}
