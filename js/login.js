@@ -7,8 +7,8 @@ $(login).on('click',function(){
         url: './data/login2.php',
         type: 'get',
         data: 'mail='+user.value+'&pass='+pass.value,
-        success: function (res){
-            alert(res);
+        success: function (data){
+            alert('登录成功');
         },
         error: function (code){
             alert('链接失败');

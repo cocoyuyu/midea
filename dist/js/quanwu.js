@@ -1,1 +1,1 @@
-"use strict";
+"use strict";$(".q_left .tab").click(function(){var s=$(this).index();$(this).addClass("active").siblings().removeClass("active"),$(".q_right div").eq(s).addClass("show").siblings().removeClass("show")}),$(".q_left .tab").mouseenter(function(){$(this).index();$(this).addClass("tab-bg").siblings().removeClass("tab-bg")});

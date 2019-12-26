@@ -26,12 +26,155 @@
     }
     // 标题结束
     .table_box{
-        .left{
+        width:1200px;
+        margin:0 auto;
+
+        .q_left{
             float:left;
+            width:299px;
+            .tab{
+                width:300px;
+                height:120px;
+                border-bottom: 1px solid #ebebeb;
+                border-right: 1px solid #ebebeb;
+                padding:30px;
+                background-color: #fff;
+                box-sizing: border-box;
+                cursor: pointer;
+                .title{
+                    font-size: 24px;
+                    font-weight: 700;
+                    color: #666;
+                }
+                .sub-title{
+                    font-size: 16px;
+                    line-height:28px;
+                    color: #999;
+                    word-break: break-all;
+                    text-overflow: ellipsis;
+                    overflow: hidden
+                }
+            }
+            .active{
+                background: #5bc09b!important;
+                border-color: #5bc09b!important;
+                .title{color: #fff!important;}
+                .sub-title{color:#fff!important;}
+            }
+            .tab-bg{
+                background-color: #ebebeb;
+            }
         }
-        .right{
-            float:right;
+        .q_right{
+            float:left; 
+            div{
+                display:none;}
+            .show{
+                display:block;}
+            img{
+                width:900px;
+                height:480px;}
+            
         }
     }
 }
 /* 4大权益结束 */
+
+/* 美的会员开卡 */
+.c_q_vip{
+    background:url(./../img/c-vipban.jpg) no-repeat 50%;
+    height:760px;
+}
+.outer_vip{
+    position: relative;
+    .c_v_right{
+        position: absolute;
+        right:12px;
+        top:154px;
+        width:600px;
+        height:229px;
+        .v_pro{
+            color:#fff;
+            font-size: 24px;
+            line-height:56px;
+            width:530px;
+            display:block;
+        
+        }
+        .v_detail{
+            color: #a4b5c1;
+            font-size:16px;
+            margin-top:10px;
+        }
+        .kk{
+            width:420px;
+            height:69px;
+            border-radius: 50px;
+            background: linear-gradient(270deg,#d5b376,#f4e6cb);
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 69px;
+            color: #6e562f;
+            margin-top:40px;
+            .c_sm{
+                font-size: 14px;
+                font-weight:100;
+                position: relative;
+                left: 6px;
+            }
+            del{
+                color: #756743;
+                font-size: 14px;
+                position: relative;
+                left: 10px;
+            }
+        }
+    }
+}
+/* 美的会员开卡结束 */
+
+/*单身精英一居室 */
+.c_single{
+    height:496px;
+    .content{
+        .sing1{
+            float: left;
+            width:24px;
+            line-height: 36px;
+            font-weight: 700;
+            padding:70px 35px;
+            color:#b39874;
+            background: #f1e7d3;
+            .txt{
+                font-size:24px;
+            }
+        }
+        .sing2{
+            float:left;
+            width: 0;
+            height: 0;
+            border: 15px solid;
+            border-color: transparent transparent transparent #f1e7d3;
+            margin-top: 172px;
+            margin-right:44px;
+        }
+        .sing3{
+            .item{
+                width:160px;
+                height:160px;
+                display: inline-block;
+                text-align: center;
+                vertical-align: top;
+                padding:20px;
+                img{
+                    display:inline-block;
+                    text-align: center;
+                    width:114px;
+                    height:114px;
+                }
+            }
+        }
+    }
+}
+/*单身精英一居室结束 */
