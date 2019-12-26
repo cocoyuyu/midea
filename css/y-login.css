@@ -71,5 +71,7 @@
         color: #e0e0e0; }
       .y-login .loginBox .login_links a {
         color: #999; }
+        .y-login .loginBox .login_links a:hover {
+          color: #f30; }
       .y-login .loginBox .login_links .forget_pwd {
         float: right; }

@@ -25,10 +25,27 @@
     padding: 40px 0;
     box-sizing: border-box;
     margin-left: -1px; }
-    .y-member ul li:hover img {
-      transform: rotateY(360deg);
-      position: relative;
-      top: -10px; }
+    .y-member ul li:nth-child(2) img {
+      -webkit-transition: .1s ease-out;
+      -moz-transition: .1s ease-out;
+      -ms-transition: .1s ease-out;
+      -o-transition: .1s ease-out;
+      transition: .1s ease-out;
+      animation: data2 1.2s linear infinite; }
+    .y-member ul li:nth-child(3) img {
+      -webkit-transition: .1s ease-out;
+      -moz-transition: .1s ease-out;
+      -ms-transition: .1s ease-out;
+      -o-transition: .1s ease-out;
+      transition: .1s ease-out;
+      animation: data2 1.5s linear infinite; }
+    .y-member ul li:nth-child(4) img {
+      -webkit-transition: .1s ease-out;
+      -moz-transition: .1s ease-out;
+      -ms-transition: .1s ease-out;
+      -o-transition: .1s ease-out;
+      transition: .1s ease-out;
+      animation: data2 1.8s linear infinite; }
     .y-member ul li:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
       position: relative;
@@ -41,9 +58,12 @@
       width: 187px;
       height: 187px;
       margin: 0 auto;
-      transition: .8s;
-      position: relative;
-      top: 0; }
+      -webkit-transition: .1s ease-out;
+      -moz-transition: .1s ease-out;
+      -ms-transition: .1s ease-out;
+      -o-transition: .1s ease-out;
+      transition: .1s ease-out;
+      animation: data1 1s linear infinite; }
     .y-member ul li h3 {
       color: #333;
       font-size: 22px;
@@ -60,6 +80,38 @@
       display: block;
       border-radius: 3px;
       margin: 40px auto 0; }
+
+@keyframes data1 {
+  25% {
+    -webkit-transform: translateY(-10px); }
+  50%, 100% {
+    -webkit-transform: translateY(0); }
+  75% {
+    -webkit-transform: translateY(10px); } }
+
+@keyframes data2 {
+  25% {
+    -webkit-transform: translateY(-10px); }
+  50%, 100% {
+    -webkit-transform: translateY(0); }
+  75% {
+    -webkit-transform: translateY(10px); } }
+
+@keyframes data3 {
+  25% {
+    -webkit-transform: translateY(-10px); }
+  50%, 100% {
+    -webkit-transform: translateY(0); }
+  75% {
+    -webkit-transform: translateY(10px); } }
+
+@keyframes data4 {
+  25% {
+    -webkit-transform: translateY(-10px); }
+  50%, 100% {
+    -webkit-transform: translateY(0); }
+  75% {
+    -webkit-transform: translateY(10px); } }
 
 .y-Celebrity {
   overflow: hidden;

@@ -86,6 +86,9 @@
       }
       & a{
         color: #999;
+        &:hover{
+          color: #f30;
+        }
       }
       & .forget_pwd{
         float: right;

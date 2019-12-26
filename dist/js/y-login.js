@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var user=document.querySelector(".user"),pass=document.querySelector(".pass"),login=document.querySelector(".login");login.onclick=function(){ajax({url:"./data/login2.php",type:"get",data:"act=login&user="+user.value+"&pass="+pass.value,success:function(e){var s=JSON.parse(e);alert(s.msg)}})};
