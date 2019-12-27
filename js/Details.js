@@ -42,8 +42,8 @@ for(var i = 0, len = date.length; i < len; i++){
                 <h3><a href="#">${date[i].title}</a></em>
             </div>
             <div class="box">
-                <a href="#">加入购物车</a>
-                <a href="#">查看详情</a>
+                <a href="./myCart.html">加入购物车</a>
+                <a href="./myCart.html">查看详情</a>
             </div>
         </div>
     `;

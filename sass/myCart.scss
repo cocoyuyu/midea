@@ -1,0 +1,65 @@
+.c-wrap{
+    width:100%;
+    height:400px;
+    background: #eee;
+    .content{
+        h3{
+            font-size:24px;
+            font-weight: bold;
+            text-align: center;
+            padding-top:30px;
+        }
+        .title{
+            width:100%;
+            height: 40px;
+            font-size: 20px;
+            font-weight: bold;
+            position: relative;
+            margin-top:50px;
+            .goods{
+                position: absolute;
+                margin-left:200px;
+            }
+            .price{
+                position: absolute;
+                margin-left:586px;
+            }
+            .action{
+                position: absolute;
+                margin-left:1000px;
+            }
+        }
+
+        .list{
+            width:100%;
+            // height:200px;
+            font-size:18px;
+            font-weight:bold;
+           
+            li{
+                position: relative;
+                img{
+                    float: left;
+                    width:200px;
+                    height:200px;
+                    position:absolute;
+                    left:118px;
+                }
+                p{
+                    float: left;
+                    position: absolute;
+                    left: 570px;
+                    top: 60px;
+                    color:red;
+                }
+                span{
+                    float: left;
+                    position:absolute;
+                    left:1000px;
+                    top:60px;
+                    color:blue;
+                }
+            }
+        }
+    }
+}
