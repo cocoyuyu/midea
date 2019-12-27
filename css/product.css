@@ -1,15 +1,16 @@
 .c_product {
-  height: 800px;
+  height: 700px;
   padding-top: 30px; }
   .c_product .content .con-imgs {
     width: 500px;
     height: 500px;
     float: left;
-    position: relative; }
+    position: relative;
+    left: 30px; }
     .c_product .content .con-imgs img {
       position: absolute;
-      width: 450px;
-      height: 450px;
+      width: 480px;
+      height: 480px;
       left: 0;
       top: 0; }
     .c_product .content .con-imgs .c-01 {
@@ -17,7 +18,7 @@
   .c_product .content .con-right {
     width: 600px;
     float: left;
-    padding-left: 50px; }
+    padding-left: 70px; }
     .c_product .content .con-right .con-right-title .con-right-self {
       color: #F60;
       line-height: 16px;
@@ -30,9 +31,54 @@
       display: inline;
       font-size: 22px;
       line-height: 28px;
-      font-weight: 400; }
+      font-weight: 400;
+      overflow: hidden;
+      word-wrap: break-word;
+      word-break: break-all;
+      max-height: 54px; }
     .c_product .content .con-right .con-right-title .con-price {
       font-size: 32px;
       font-weight: bolder;
       color: #f60;
       margin-top: 20px; }
+    .c_product .content .con-right .con-right-title .model-specific {
+      margin-top: 30px; }
+      .c_product .content .con-right .con-right-title .model-specific h3 {
+        float: left;
+        width: 54px;
+        line-height: 34px;
+        font-size: 12px; }
+      .c_product .content .con-right .con-right-title .model-specific .guige {
+        padding: 3px;
+        display: inline-block;
+        vertical-align: middle;
+        cursor: pointer; }
+        .c_product .content .con-right .con-right-title .model-specific .guige span {
+          padding: 5px 7px;
+          margin-right: 5px;
+          height: 26px;
+          line-height: 26px;
+          border: 2px solid #ccc; }
+        .c_product .content .con-right .con-right-title .model-specific .guige .active {
+          border: 2px solid #f60; }
+      .c_product .content .con-right .con-right-title .model-specific .number {
+        margin-top: 30px; }
+        .c_product .content .con-right .con-right-title .model-specific .number .num input {
+          width: 50px;
+          height: 26px;
+          border: 2px solid #ccc;
+          text-align: center; }
+      .c_product .content .con-right .con-right-title .model-specific .addCart {
+        margin: 30px 0; }
+        .c_product .content .con-right .con-right-title .model-specific .addCart .addCart-btn {
+          display: inline-block;
+          font-size: 14px;
+          height: 40px;
+          line-height: 40px;
+          width: 205px;
+          text-align: center;
+          color: #fff;
+          padding: 0;
+          cursor: pointer;
+          background-color: #0092d8;
+          margin-right: 10px; }
